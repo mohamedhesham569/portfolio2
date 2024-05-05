@@ -1,0 +1,46 @@
+/* .home{
+    background-image: url(../../../public/photo1713140039.jpeg);
+    background-position: center;
+    height: 80vh;
+} */
+button{
+    margin: 10px;
+    padding: 10px;
+    text-transform: capitalize;
+    border-radius: 20px;
+    font-weight: 500;
+}
+.view{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.805);
+    transition: all 0.5s;
+}
+.view:hover{
+    background-color: black;
+    transform: scale(110%);
+    box-shadow:0 1px 5px 2px black;
+}
+.contact{
+    border: 1px solid black;
+    transition: all 0.5s;
+}
+.contact:hover{
+    transform: scale(110%);
+    box-shadow:0 1px 2px 2px rgba(0, 0, 0, 0.251);
+}
+.image{
+    max-width: 300px;
+    max-height:fit-content;
+    margin: auto;
+    animation: floating 3s ease-in-out infinite;
+}
+.image img{
+     border-radius: 20px;
+}
+
+
+@keyframes floating {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 20px); }
+    100%   { transform: translate(0, -0px); }    
+}
