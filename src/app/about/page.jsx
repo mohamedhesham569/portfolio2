@@ -43,7 +43,7 @@ const Page=()=> {
                     <div className="scroll"></div>
                 </div>
             </div>
-            <div className="car hidden sm:block relative w-1/2"><Car className="ccar"/></div>
+            <div className="car mm hidden sm:block relative w-1/2"><Car className="ccar"/></div>
             </div>
 
 <div className="main-skills flex">
