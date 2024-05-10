@@ -15,7 +15,7 @@ const Homepage = () => {
     <div className="image m-4">
       <Image src={logo} width="auto" height="auto" alt="mm"/></div>
     <div className="content w-full md:w-6/12 m-4 mb-0 capitalize">
-      <h1 className="capitalize my-4 md:text-xl font-semibold">Let's create amazing websites together.</h1>
+      <h1 className="capitalize my-4 md:text-xl font-semibold">Let&apos;s create amazing websites together.</h1>
       <p className="capitalize my-4 text-sm">welcome to my portfolio , my name is mohamed hisham and i am a front-end developer . my portfolio showcases a diverse collection of projects that reflect my commitment to excellence.</p>
       
       <Link href="/projects"><button type="button  " className="view text-white">view my work</button></Link>

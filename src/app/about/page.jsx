@@ -4,8 +4,6 @@ import Car from "@/components/animation/Car"
 import "./about.css"
 import Bird from "@/components/animation/Bird"
 import { motion } from "framer-motion"
-import { useRef } from "react";
-import { useInView } from "framer-motion"
 import { saveAs } from "file-saver";
 
 const Page=()=> {
@@ -33,7 +31,7 @@ const Page=()=> {
                 BIOGRAPHY
                 </div>
                 <div className="bio-desc">
-                As a frontend developer , I'm dedicated to creating seamless digital experiences. I focus on user-centric design principles to craft elegant interfaces that blend aesthetics with functionality. My passion lies in shaping the digital landscape with purpose and innovation.
+                As a frontend developer , I am dedicated to creating seamless digital experiences. I focus on user-centric design principles to craft elegant interfaces that blend aesthetics with functionality. My passion lies in shaping the digital landscape with purpose and innovation.
                 </div>
                 <div className="field mt-24">
                     <div className="scroll"></div>

@@ -5,7 +5,6 @@ import bars from "../../public/bars-solid.svg"
 import xmark from "../../public/xmark.svg"
 import Image from "next/image";
 import { motion } from "framer-motion";
-import { usePathname } from "next/navigation";
 import Navlink from "./Navlink";
 
 export default function Nav() {
