@@ -1,4 +1,5 @@
 "use client";
+
 import Car from "@/components/animation/Car"
 import "./about.css"
 import Bird from "@/components/animation/Bird"
@@ -9,25 +10,20 @@ import { saveAs } from "file-saver";
 
 const Page=()=> {
 
-    const Skillref = useRef();
-    const Skillsinview=useInView(Skillref)
-
-    const bioref = useRef();
-    const bioinview=useInView(bioref)
 
     const saveFile = () => {
         saveAs(
           "https://drive.google.com/file/d/1x2EO5BEmL5PG2my_Llvp0PNBZtyKEr9a/view?usp=drivesdk"
         );
       };
-  return (
+    return (
 
     <>
     <motion.div
-  initial={{y:"-200vh"}}
-  animate={{y:"0"}}
-  transition={{duration:1}}
-  >
+    initial={{y:"-200vh"}}
+    animate={{y:"0"}}
+    transition={{duration:1}}
+    >
     <section className="flex">
         
         <div className="text gap-24">
@@ -37,21 +33,21 @@ const Page=()=> {
                 BIOGRAPHY
                 </div>
                 <div className="bio-desc">
-                As a frontend developer and UI designer, I'm dedicated to creating seamless digital experiences. I focus on user-centric design principles to craft elegant interfaces that blend aesthetics with functionality. My passion lies in shaping the digital landscape with purpose and innovation.
+                As a frontend developer , I'm dedicated to creating seamless digital experiences. I focus on user-centric design principles to craft elegant interfaces that blend aesthetics with functionality. My passion lies in shaping the digital landscape with purpose and innovation.
                 </div>
                 <div className="field mt-24">
                     <div className="scroll"></div>
                 </div>
             </div>
-            <div className="car mm hidden sm:block relative w-1/2"><Car className="ccar"/></div>
+            <div className="car  hidden sm:block relative w-1/2"><Car className="ccar"/></div>
             </div>
 
 <div className="main-skills flex">
             <div className="skills h-screen m-6 mt-0 sm:w-1/2">
-                <motion.div className="skills-titel mb-6 font-bold text-xl" >
+                <div className="skills-titel mb-6 font-bold text-xl" >
                 SKILLS
-                </motion.div>
-                <motion.div className="skills-items flex gap-3 flex-wrap" >
+                </div>
+                <div className="skills-items flex gap-3 flex-wrap" >
                     <div className="skill">javascript</div>
                     <div className="skill">html</div>
                     <div className="skill">css</div>
@@ -64,7 +60,7 @@ const Page=()=> {
                     <div className="skill">typescript</div>
                     <div className="skill">framer motion</div>
                     <div className="skill">git</div>
-                </motion.div>
+                </div>
                 <div className="field mt-24">
                     <div className="scroll"></div>
                 </div>

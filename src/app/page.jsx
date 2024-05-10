@@ -3,6 +3,7 @@ import "./css/hoem.css"
 import Image from "next/image";
 import logo from "../../public/photo1713140853-removebg-preview.png"
 import { motion } from "framer-motion"
+import Link from "next/link";
 const Homepage = () => {
   return <>
   <motion.div
@@ -16,8 +17,8 @@ const Homepage = () => {
     <div className="content w-full md:w-6/12 m-4 mb-0 capitalize">
       <h1 className="capitalize my-4 md:text-xl font-semibold">Let's create amazing websites together.</h1>
       <p className="capitalize my-4 text-sm">welcome to my portfolio , my name is mohamed hisham and i am a front-end developer . my portfolio showcases a diverse collection of projects that reflect my commitment to excellence.</p>
-      <button type="button  " className="view text-white">view my work</button>
-      <button type="button " className="contact">contact me</button>
+      
+      <Link href="/projects"><button type="button  " className="view text-white">view my work</button></Link>
     </div>
   </section>
   </motion.div>
