@@ -8,6 +8,9 @@ import soup from "../../../public/soup.png"
 import flapy from "../../../public/flapybird.png"
 import twitter from "../../../public/twitter.png"
 import hangman from "../../../public/hangman.png"
+import uifry from "../../../public/Screenshot (10).png"
+import Dashboard from "../../../public/Screenshot (11).png"
+
 
 export default function Page() {
 
@@ -16,7 +19,7 @@ export default function Page() {
   const x=useTransform(scrollYProgress,[0,1],["0%","-90%"])
 
 
-  const works=[
+   const works=[
     {
       id:1,
       title:"ecommerce website",
@@ -26,27 +29,41 @@ export default function Page() {
     },
     {
       id:2,
+      title:"Dental Medical Website",
+      image:uifry,
+      desc:"a Dental Medical website, built using Next.js,Material Ui and Figma..the website is fully responsive,modern, and intuitive, making it easy for visitors to navigate and find the information they need",
+      link:"https://mohamedhesham569.github.io/uifry/",
+    },
+    {
+      id:3,
+      title:"Dashboard Website",
+      image:Dashboard,
+      desc:"a Dashboard website, built using Next.js And Material Ui ..the website is fully responsive,modern, and intuitive, making it easy for visitors to navigate and find the information they need",
+      link:"https://mohamedhesham569.github.io/Dachboard/",
+    },
+    {
+      id:4,
       title:"restaurant website",
       image:soup,
       desc:"a restaurant website, built using HTML, CSS, and JavaScript..the website is fully responsive,modern, and intuitive, making it easy for visitors to navigate and find the information they need",
       link:"https://mohamedhesham569.github.io/soup/html/home",
     },
     {
-      id:3,
+      id:5,
       title:"flappy bird game",
       image:flapy,
       desc:"Flappy Bird game built from scratch using HTML, CSS, and JavaScript! 🕹️ Dive into nostalgia and test your skills as you navigate the bird through a series of obstacles. Try it out and see how high you can score!",
       link:"https://mohamedhesham569.github.io/flappy-bird/",
     },
     {
-      id:4,
+      id:6,
       title:"twitter clone",
       image:twitter,
       desc:"a clone of Twitter! Built with React, and Firebase, this project challenged me to recreate the core functionalities of Twitter like :real-time updates.",
       link:"https://mohamedhesham569.github.io/twitter/",
     },
     {
-      id:5,
+      id:7,
       title:"hangman game",
       image:hangman,
       desc:"a Hangman game .using HTML, CSS, and JavaScript is a text-based game where players are presented with a series of underscores representing the letters in a hidden word.",
