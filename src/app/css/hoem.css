@@ -37,6 +37,9 @@ button{
 .image img{
      border-radius: 20px;
 }
+.home{
+    margin-top: 60px;
+}
 
 
 @keyframes floating {
